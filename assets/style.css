@@ -1,16 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap:400,500,600,700,800,900');
 
+/*navbar & jumbotron*/
+
 .navbar{
     font-family: "Playfair Display", "san-serif";
     font-weight: bold;
 }
+.nav-item li a:hover{
+    color:red;
+}
 
 .jumbotron {
+    margin-left:0;
+    border:0;
+    height:400px;
     background-color: transparent;
 }
 
 .jumbotron h1{
     font-family: "Playfair Display", "san-serif";
     font-weight: bold;
+    font-size: 5em;
+    margin-top:50px;
     margin-bottom: 50px;
+    color: #fafafa;
+}
+
+.button-trial{
+    font-family: "Playfair Display", "san-serif";
+    width: 300px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 120%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-image{
+    height: 60vh;
+    background: url('/assets/images/book.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*reasons to learn*/
+
+.container-reasons{
+    background-color: #D9D9DB;
+    font-family: "Playfair Display", "san-serif";
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding:40px;
+}
+.question{
+    padding: 20px;
+}
+
+/*Social Media Links*/
+
+.sm-text{
+     font-family: "Playfair Display", "san-serif";
+}
+
+.sm-links{
+    color: #D9D9DB;
 }
