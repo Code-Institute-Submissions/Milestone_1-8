@@ -1,35 +1,24 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome Elena-Pakhmurskaia,
+# **Milestone Project 1 - Learn Russian**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## **UX**
+This project was designed to promote language learning services. The goal of the project is to attract new clients. 
+A potential client is a person who is looking for private/skype/group lessons to learn Russian. The visitor of the page should be able to sign up for a trial lesson.
+Therefore, trial lessons button appears on every page of the website. 
+The aim is not to overload visitor with to much information but rather make it easier to start up a conversation by arranging a free trial lesson.
+A highlevel information about provided services, course prices/details, teacher profile, and reasons to learn Russian is provided on different pages to break down the information.
 
-`python3 -m http.server`
+Potential user profile: wants to learn Russian but not looking for a language school or teacher matching websites; potential users wnats to connect with prospect teacher directly.
+A trila lesson button is placed on every page, the button sends the user to the contact form where he/she is encouradged to contact the teacher.
 
-A blue button should appear to click: *Expose*,
+The wireframes for the project can be found here: https://balsamiq.cloud/slt8kda/pz6bnsi 
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## **Features**
+*Feature 1 Home page - _Get your free trial lesson_ button - redirects to contact form. Additional feature - book in calendar.
+*Feature 2 Home page - _Check my courses_ button - redirects to the list of the courses after reading the first reason.
+*Feature 3 Home page - _Get to know me_ button - redirects to about me page.
+*Feature 4 Home page - _What students say?_ button - redirects to students' testimonials.
+*Feature 5 All pages - _Find me on Social Media_ links to personal SM platforms.
