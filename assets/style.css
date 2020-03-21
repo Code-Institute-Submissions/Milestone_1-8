@@ -43,15 +43,25 @@
     justify-content: center;
 }
 
+.hero-image-aboutme{
+    height: 60vh;
+    background: url('/assets/images/book.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*hover*/
 .nav-item a:hover{
-    color:gray!important;
+    color:darkgray!important;
 }
 .navbar a:hover{
-    color:gray!important;
+    color: darkgrey!important;
 }
 .sm-links li a i:hover{
-    color: gray!important;
+    color: darkgray!important;
 }
 /*reasons to learn*/
 
@@ -64,15 +74,80 @@
 .question{
     padding: 20px;
 }
+.reason-button{
+    margin-right: 20px;
+}
+/*about me*/
+
+.aboutme{
+      font-family: "Playfair Display", "san-serif";
+      margin:40px 20px 0px 40px;
+}
+
+/*about me-timeline*/
+
+.aboutme-heading {
+    margin-bottom: 10px;
+}
+
+.timeline-item{
+    padding: 5em 2em 0em 2em;
+    position: relative;
+    border-left: 2px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 1em;
+    top: 3em;
+    display: block;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+        align-items: center;
+    justify-content: center;
+}
+
+.timeline-item:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -8px;
+    border-radius: 14px;
+    content: '';
+    background:orange;
+        align-items: center;
+    justify-content: center;
+}
+
+.aboutme-items {
+    margin-bottom: 10px;
+}
+
+/*carousel*/
+.carousel-section{
+    padding: 50px;
+
+}
+
 
 /*Footer*/
 
 .footer{
-    padding-top: 30px;
+    padding-top: 0px;
     padding-bottom: 30px;
 }
 .sm-text{
      font-family: "Playfair Display", "san-serif";
+     padding-bottom: 10px;
 }
 
 .sm-links li a i{
