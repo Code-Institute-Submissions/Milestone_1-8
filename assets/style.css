@@ -8,10 +8,11 @@
 }
 
 .jumbotron {
-    margin-left:0;
+    margin:0;
     border:0;
-    height:400px;
     background-color: transparent;
+    align-items: center;
+    justify-content: center;
 }
 
 .jumbotron h1{
@@ -44,7 +45,27 @@
 }
 
 .hero-image-aboutme{
-    height: 60vh;
+    height: 30vh;
+    background: url('/assets/images/book.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image-contact{
+    height: 30vh;
+    background: url('/assets/images/book.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image-courses{
+    height: 30vh;
     background: url('/assets/images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,9 +88,8 @@
 
 .container-reasons{
     font-family: "Playfair Display", "san-serif";
-    margin-top: 20px;
-    margin-bottom: 10px; 
-    padding:20px;
+    margin: 20px 0 0 0;
+    padding: 20px 20px 0 20px;
 }
 .question{
     padding: 20px;
@@ -77,6 +97,8 @@
 .reason-button{
     margin-right: 20px;
 }
+
+
 /*about me-timeline*/
 
 .aboutme{
@@ -187,17 +209,45 @@
 /*Footer*/
 
 .footer{
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding: 10px;
+    margin: 0;
 }
 .sm-text{
-     font-family: "Playfair Display", "san-serif";
-     padding-bottom: 10px;
+    font-family: "Playfair Display", "san-serif";
+    padding-bottom: 10px;
+    padding-inline-start: 0;
 }
 
 .sm-links li a i{
     color: #15161B;
 }
+
+
+/*courses page*/
+
+.courses-types{
+    font-family: "Playfair Display", "san-serif";
+    margin: 20px 0 0 0;
+    padding: 20px 20px 0 20px;
+}
+
+.types-heading{
+    padding:20px;
+    margin:0:
+}
+
+.alert-dark{
+    background-color: #343a40;
+    color: #fafafa;
+}
+
+
+
+
+
+
+
+
 
 /*contact page*/
 
@@ -214,3 +264,5 @@
 .input-box{
     font-size: 20px;
 }
+
+
