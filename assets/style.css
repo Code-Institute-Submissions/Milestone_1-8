@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap:400,500');
 
 /*navbar & jumbotron*/
 
@@ -19,9 +19,9 @@
     font-family: "Playfair Display", "san-serif";
     font-weight: bold;
     font-size: 5em;
-    margin-top:50px;
-    margin-bottom: 50px;
     color: #fafafa;
+    padding: 0;
+    margin: 0;
 }
 
 .button-trial{
@@ -46,7 +46,6 @@
 
 .hero-image-aboutme{
     height: 30vh;
-    background: url('/assets/images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -55,7 +54,7 @@
 }
 
 .hero-image-contact{
-    height: 30vh;
+    height: 40vh;
     background: url('/assets/images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,7 +64,7 @@
 }
 
 .hero-image-courses{
-    height: 30vh;
+    height: 40vh;
     background: url('/assets/images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -103,7 +102,7 @@
 
 .aboutme{
       font-family: "Playfair Display", "san-serif";
-      margin:40px 20px 0px 40px;
+      margin:20px;
 }
 .aboutme-items {
     margin-bottom: 10px;
@@ -151,7 +150,7 @@
     left: -8px;
     border-radius: 14px;
     content: '';
-    background:orange;
+    background:#00c2cb;
 }
 
 .timeline-item-work{
@@ -190,7 +189,7 @@
     right: -8px;
     border-radius: 14px;
     content: '';
-    background:orange;
+    background:#00c2cb;
 }
 /*aboutme image*/
 .img-fluid {
@@ -199,12 +198,6 @@
     border-radius: 500px;
 }
 
-
-/*carousel*/
-.carousel-section{
-    padding: 50px;
-
-}
 
 /*Footer*/
 
@@ -240,13 +233,6 @@
     background-color: #343a40;
     color: #fafafa;
 }
-
-
-
-
-
-
-
 
 
 /*contact page*/
