@@ -13,13 +13,13 @@ A trial lesson button is placed on every page, the button sends the user to the 
 
 
 ## **Features**
-**Feature 1** Home page - Get your free trial lesson button - redirects to contact form. Additional feature - book in the calendar. 
-**Feature 2** Home page - Check my courses button - redirects to the list of the courses after reading the first reason. 
-**Feature 3** Home page - Get to know me button - redirects to about me page. 
-**Feature 4** Home page - What students say? button - redirects to students' testimonials. 
-**Feature 5** All pages - Find me on Social Media links to personal SM platforms.
-**Feature 6** About me - Testimonial section was styled from canva.com. the presentation was created in canva.com and embedded as a testimonial feature.
-**Feature 7** Contact page - Contact page is designed for collecting personal information from potential students. 
+1. **Feature 1** Home page - Get your free trial lesson button - redirects to contact form. Additional feature - book in the calendar. 
+1. **Feature 2** Home page - Check my courses button - redirects to the list of the courses after reading the first reason. 
+1. **Feature 3** Home page - Get to know me button - redirects to about me page. 
+1. **Feature 4** Home page - Students' Testimonials button - redirects to students' testimonials. 
+1. **Feature 5** All pages - Find me on Social Media links to personal SM platforms.
+1. **Feature 6** About me - Testimonial section was styled from canva.com. The presentation was created in canva.com and embedded as a testimonial feature.
+1. **Feature 7** Contact page - Contact page is designed for collecting personal information from potential students. 
 It includes the input of a name, email address, type of the course they prefer with a drop-down feature.
 
 ## **Technologies Used**
@@ -33,23 +33,23 @@ Code: HTML and CSS.
 ## **Testing**
 
 1. Get your free trial lesson button:
-1a. Click on "Get your free trial lesson" button on Home page and Courses page;
-1b. You will be redirected to contact form page;
-1c. Try to submit an empty form - you will get an error message;
-1d. Try to submit with an invalid email - you will get an error message;
-1e. Try to submit with all input.
+1. 1a. Click on "Get your free trial lesson" button on Home page and Courses page;
+1. 1b. You will be redirected to contact form page;
+1. 1c. Try to submit an empty form - you will get an error message;
+1. 1d. Try to submit with an invalid email - you will get an error message;
+1. 1e. Try to submit with all input.
 
 2. Check my courses button
-2a. Located on the Home page under the first reason to learn Russian. 
-2b. Click on the button and make sure you are redirected to Courses page.
+1. 2a. Located on the Home page under the first reason to learn Russian. 
+1. 2b. Click on the button and make sure you are redirected to Courses page.
 
 3. Get to know me
-3a. Located on the Home page under the second reason to learn Russian. 
-3b. Click on the button and make sure you are redirected to About me page.
+1. 3a. Located on the Home page under the second reason to learn Russian. 
+1. 3b. Click on the button and make sure you are redirected to About me page.
 
 4. What do students say?
-4a. Located on the Home page under the third reason to learn Russian. 
-4b. Click on the button and make sure you are redirected to About me page.
+1. 4a. Located on the Home page under the third reason to learn Russian. 
+1. 4b. Click on the button and make sure you are redirected to About me page.
 
 ### **Different screen sizes
 The content of the pages is arranged according to responsive design. 
