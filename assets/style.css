@@ -197,7 +197,9 @@
     height: 500px;
     border-radius: 500px;
 }
-
+.testimonials{
+    font-family: "Playfair Display", "san-serif";
+}
 
 /*Footer*/
 
