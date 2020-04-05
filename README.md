@@ -57,3 +57,15 @@ The content of the pages is arranged according to responsive design.
 Some features were adjusted in order to be more visually attractive on mobile and tablet screens. 
 For instanse, icons the first page are not shown on the mobile version. 
 However, can be visible on desktops and tablets. 
+
+### **Different browsers**
+
+## **Deployment**
+
+## **Credits**
+
+### **Content**
+
+### **Media**
+
+### **Acknowledgements**
