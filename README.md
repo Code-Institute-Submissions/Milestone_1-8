@@ -48,7 +48,7 @@ It includes the input of a name, email address, type of the course they prefer w
     1. Located on the Home page under the second reason to learn Russian. 
     1. Click on the button and make sure you are redirected to About me page.
 
-4. **Students' Testimonials?**
+4. **Students' Testimonials**
     1. Located on the Home page under the third reason to learn Russian. 
     1. Click on the button and make sure you are redirected to About me page.
 
@@ -61,6 +61,7 @@ However, can be visible on desktops and tablets.
 ### **Different browsers**
 
 ## **Deployment**
+
 
 ## **Credits**
 

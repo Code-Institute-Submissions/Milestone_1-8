@@ -36,7 +36,7 @@
 
 .hero-image{
     height: 60vh;
-    background: url('/assets/images/book.jpg') no-repeat;
+    background: url('images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -55,7 +55,7 @@
 
 .hero-image-contact{
     height: 40vh;
-    background: url('/assets/images/book.jpg') no-repeat;
+    background: url('images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -65,7 +65,7 @@
 
 .hero-image-courses{
     height: 40vh;
-    background: url('/assets/images/book.jpg') no-repeat;
+    background: url('images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -191,12 +191,8 @@
     content: '';
     background:#00c2cb;
 }
-/*aboutme image*/
-.img-fluid {
-    width: 500px;
-    height: 500px;
-    border-radius: 500px;
-}
+
+
 .testimonials{
     font-family: "Playfair Display", "san-serif";
 }
