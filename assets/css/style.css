@@ -36,7 +36,7 @@
 
 .hero-image{
     height: 60vh;
-    background: url('images/book.jpg') no-repeat;
+    background: url('../images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -55,7 +55,7 @@
 
 .hero-image-contact{
     height: 40vh;
-    background: url('images/book.jpg') no-repeat;
+    background: url('../images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -65,7 +65,7 @@
 
 .hero-image-courses{
     height: 40vh;
-    background: url('images/book.jpg') no-repeat;
+    background: url('../images/book.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -224,7 +224,7 @@
 
 .types-heading{
     padding:20px;
-    margin:0:
+    margin:0;
 }
 
 .alert-dark{
