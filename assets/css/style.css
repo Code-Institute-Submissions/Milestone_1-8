@@ -89,6 +89,7 @@
     font-family: "Playfair Display", "san-serif";
     margin: 20px 0 0 0;
     padding: 20px 20px 0 20px;
+    text-align: justify;
 }
 .question{
     padding: 20px;
@@ -98,100 +99,32 @@
 }
 
 
-/*about me-timeline*/
+/*about me*/
 
 .aboutme{
       font-family: "Playfair Display", "san-serif";
       margin:20px;
 }
+
 .aboutme-items {
     margin-bottom: 10px;
 }
-/*about me-timeline*/
 
 .aboutme-heading {
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.timeline-item{
-    padding: 5em 2em 0em 2em;
-    position: relative;
-    border-left: 2px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.timeline-item h4{
-    text-align: center;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 1em;
-    top: 3em;
-    display: block;
-    font-size: 0.9em;
+.personal-intro{
+    text-align: justify;
     padding: 0;
     margin: 0;
 }
 
-.timeline-item:after {
-    width: 14px;
-    height: 14px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -8px;
-    border-radius: 14px;
-    content: '';
-    background:#00c2cb;
+.img-fluid{
+    width: 120px;
+    height: 120px;
 }
-
-.timeline-item-work{
-    padding: 5em 2em 0em 2em;
-    position: relative;
-    border-right: 2px solid;
-}
-
-.timeline-item-work h4{
-    text-align: center;
-}
-
-.timeline-item-work p {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.timeline-item-work:before {
-    content: attr(data-dates);
-    position: absolute;
-    right: 1em;
-    top: 3em;
-    display: block;
-    font-size: 0.9em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item-work:after {
-    width: 14px;
-    height: 14px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    right: -8px;
-    border-radius: 14px;
-    content: '';
-    background:#00c2cb;
-}
-
 
 .testimonials{
     font-family: "Playfair Display", "san-serif";
@@ -248,5 +181,4 @@
 .input-box{
     font-size: 20px;
 }
-
 
