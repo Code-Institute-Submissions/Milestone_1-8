@@ -2,20 +2,20 @@
 
 /*navbar & jumbotron*/
 
-.navbar{
+.navbar {
     font-family: "Playfair Display", "san-serif";
     font-weight: bold;
 }
 
 .jumbotron {
-    margin:0;
-    border:0;
+    margin: 0;
+    border: 0;
     background-color: transparent;
     align-items: center;
     justify-content: center;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     font-family: "Playfair Display", "san-serif";
     font-weight: bold;
     font-size: 5em;
@@ -24,7 +24,7 @@
     margin: 0;
 }
 
-.button-trial{
+.button-trial {
     font-family: "Playfair Display", "san-serif";
     width: 300px;
     height: 70px;
@@ -34,7 +34,7 @@
     padding-bottom: 20px;
 }
 
-.hero-image{
+.hero-image {
     height: 60vh;
     background: url('../images/book.jpg') no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@
     justify-content: center;
 }
 
-.hero-image-aboutme{
+.hero-image-aboutme {
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@
     justify-content: center;
 }
 
-.hero-image-contact{
+.hero-image-contact {
     height: 40vh;
     background: url('../images/book.jpg') no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@
     justify-content: center;
 }
 
-.hero-image-courses{
+.hero-image-courses {
     height: 40vh;
     background: url('../images/book.jpg') no-repeat;
     background-size: cover;
@@ -72,38 +72,46 @@
     align-items: center;
     justify-content: center;
 }
+
 
 /*hover*/
-.nav-item a:hover{
-    color:darkgray!important;
-}
-.navbar a:hover{
-    color: darkgrey!important;
-}
-.sm-links li a i:hover{
+
+.nav-item a:hover {
     color: darkgray!important;
 }
-/*reasons to learn*/
 
-.container-reasons{
+.navbar a:hover {
+    color: darkgrey!important;
+}
+
+.sm-links li a i:hover {
+    color: darkgray!important;
+}
+
+
+/* home page - reasons to learn*/
+
+.container-reasons {
     font-family: "Playfair Display", "san-serif";
     margin: 20px 0 0 0;
     padding: 20px 20px 0 20px;
     text-align: justify;
 }
-.question{
+
+.question {
     padding: 20px;
 }
-.reason-button{
+
+.reason-button {
     margin-right: 20px;
 }
 
 
 /*about me*/
 
-.aboutme{
-      font-family: "Playfair Display", "san-serif";
-      margin:20px;
+.aboutme {
+    font-family: "Playfair Display", "san-serif";
+    margin: 20px;
 }
 
 .aboutme-items {
@@ -115,52 +123,40 @@
     margin-top: 20px;
 }
 
-.personal-intro{
+.personal-intro {
     text-align: justify;
     padding: 0;
     margin: 0;
 }
 
-.img-fluid{
+.img-fluid-edu{
     width: 120px;
     height: 120px;
 }
 
-.testimonials{
+.testimonials {
     font-family: "Playfair Display", "san-serif";
-}
-
-/*Footer*/
-
-.footer{
-    padding: 10px;
-    margin: 0;
-}
-.sm-text{
-    font-family: "Playfair Display", "san-serif";
-    padding-bottom: 10px;
-    padding-inline-start: 0;
-}
-
-.sm-links li a i{
-    color: #15161B;
 }
 
 
 /*courses page*/
 
-.courses-types{
+.courses-types {
     font-family: "Playfair Display", "san-serif";
     margin: 20px 0 0 0;
     padding: 20px 20px 0 20px;
 }
 
-.types-heading{
-    padding:20px;
-    margin:0;
+.types-heading {
+    padding: 20px;
+    margin: 0;
 }
 
-.alert-dark{
+.types-paragraph {
+    text-align: justify;
+}
+
+.alert-dark {
     background-color: #343a40;
     color: #fafafa;
 }
@@ -168,17 +164,33 @@
 
 /*contact page*/
 
-.contact-me{
+.contact-me {
     padding: 20px;
 }
 
-.contact-form{
+.contact-form {
     font-family: "Playfair Display", "san-serif";
     align-items: center;
     justify-content: center;
 }
 
-.input-box{
+.input-box {
     font-size: 20px;
 }
 
+
+/*Footer*/
+
+.footer {
+    padding: 10px;
+    margin: 0;
+}
+
+.sm-text {
+    font-family: "Playfair Display", "san-serif";
+    padding-bottom: 10px;
+}
+
+.sm-links li a i {
+    color: #15161B;
+}

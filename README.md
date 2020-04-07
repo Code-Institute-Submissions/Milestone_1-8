@@ -68,8 +68,6 @@ The content of the pages is arranged according to responsive design. Some featur
 1. Section "Education" removed from mobile view but is visible on desktop and tablet.
 1. Types of lessons are under each other on mobile and tablet view, but next to each other on desktops.
 
-### **Different browsers**
-
 ## **Deployment**
 Deployment – Live Website
 
